@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Upload File</title>
+	<style type="text/css">
+	#tohide{
+		visibility: hidden;
+	}
+
+	.upload{
+		height: 70px;
+		width: 100px;
+		border-width: 3px;
+		border-color: green;
+		background-color: black;
+		color: white;
+		border-radius: 10px;
+
+	}
+
+	.upload:hover{
+		border-color: white;
+		background-color: blue;
+
+	}
+
+	</style>
+</head>
+<body >
+	
+	<input type="file" id="tohide">
+	<input type="button" value="Upload" class="upload" onclick="getElementById('tohide').click();">
+	
+</body>
+</html>
